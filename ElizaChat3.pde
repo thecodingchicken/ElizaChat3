@@ -16,7 +16,8 @@ void setup()
   
     // A new script can be loaded through the readScript function.
     // It can take local as well as remote files. 
-    eliza.readScript("scriptmy");
+    eliza.readScript("script");//default script
+    eliza.readScript("scriptmy");//this file is one that i made for myself.  
     //eliza.readScript("http://chayden.net/eliza/script");
   
     // To go back to the default script, use this:
